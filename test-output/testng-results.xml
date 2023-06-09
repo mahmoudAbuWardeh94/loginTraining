@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-09T13:33:05 EET" name="Default suite" finished-at="2023-06-09T13:34:23 EET" duration-ms="77850">
+    <groups>
+    </groups>
+    <test started-at="2023-06-09T13:33:05 EET" name="Default test" finished-at="2023-06-09T13:34:23 EET" duration-ms="77850">
+      <class name="LoginTest">
+        <test-method is-config="true" signature="this_is_before_test()[pri:0, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:05 EET" name="this_is_before_test" finished-at="2023-06-09T13:33:22 EET" duration-ms="16735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- this_is_before_test -->
+        <test-method signature="invalid_userName_invalid_Password()[pri:1, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:22 EET" name="invalid_userName_invalid_Password" finished-at="2023-06-09T13:33:28 EET" duration-ms="5741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_userName_invalid_Password -->
+        <test-method signature="invalid_userName_validPassword()[pri:2, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:28 EET" name="invalid_userName_validPassword" finished-at="2023-06-09T13:33:34 EET" duration-ms="5780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalid_userName_validPassword -->
+        <test-method signature="valid_userName_invalidPassword()[pri:3, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:34 EET" name="valid_userName_invalidPassword" finished-at="2023-06-09T13:33:39 EET" duration-ms="5528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_userName_invalidPassword -->
+        <test-method signature="empty_userName()[pri:4, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:39 EET" name="empty_userName" finished-at="2023-06-09T13:33:50 EET" duration-ms="10241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_userName -->
+        <test-method signature="empty_password()[pri:5, instance:LoginTest@290222c1]" started-at="2023-06-09T13:33:50 EET" name="empty_password" finished-at="2023-06-09T13:34:01 EET" duration-ms="11486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_password -->
+        <test-method signature="empty_userName_emptyPassword()[pri:6, instance:LoginTest@290222c1]" started-at="2023-06-09T13:34:01 EET" name="empty_userName_emptyPassword" finished-at="2023-06-09T13:34:11 EET" duration-ms="10357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- empty_userName_emptyPassword -->
+        <test-method signature="valid_username_validPassword()[pri:7, instance:LoginTest@290222c1]" started-at="2023-06-09T13:34:11 EET" name="valid_username_validPassword" finished-at="2023-06-09T13:34:23 EET" duration-ms="11895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_username_validPassword -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
