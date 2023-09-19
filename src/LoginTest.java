@@ -11,7 +11,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginTest {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	SoftAssert softassert = new SoftAssert();
 
@@ -43,6 +43,8 @@ public class LoginTest {
 
 		driver.navigate().refresh();
 		Thread.sleep(3000);
+		Thread.sleep(1000);
+
 		driver.findElement(By.xpath("//*[@id=\"notification-block\"]/button")).click();
 
 	}
@@ -64,6 +66,8 @@ public class LoginTest {
 
 		driver.navigate().refresh();
 		Thread.sleep(3000);
+		Thread.sleep(2000);
+		Thread.sleep(2000);
 
 		driver.findElement(By.xpath("//*[@id=\"notification-block\"]/button")).click();
 
@@ -73,6 +77,8 @@ public class LoginTest {
 
 	public void valid_userName_invalidPassword() throws InterruptedException {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		Thread.sleep(1000);
+
 		driver.findElement(By.id("username")).click();
 		driver.findElement(By.id("username")).sendKeys("mahmoudAbuWardeh");
 		driver.findElement(By.id("password")).click();
@@ -86,7 +92,7 @@ public class LoginTest {
 		softassert.assertAll();
 
 		driver.navigate().refresh();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 
 		driver.findElement(By.xpath("//*[@id=\"notification-block\"]/button")).click();
 
